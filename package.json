@@ -1,0 +1,9 @@
+{
+  "name": "browserify-strip-code",
+  "main": "index.js",
+  "description": "Removes code between comment blocks: /* start-test-block */code.../* end-test-block */",
+  "version": "1.0.0",
+  "dependencies": {
+    "through2": "^3.0.0"
+  }
+}
