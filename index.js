@@ -8,7 +8,7 @@ module.exports = function (file, opts) {
     code += buf.toString('utf8')
     next()
   }, function stripCodeThroughNext(next) {
-    if (!opts || !Array.isArray(opts.whitelist) || opts.whitelist.indexOf(file) !== -1) {
+    if (!opts || !Array.isArray(opts.whitelist) || opts.whitelist.findIndex(item => (file.indexOf(item) !== -1)) !== -1) {
       /*  transform the code  */
       code = code.replace(/\/\* start-test-block \*\/((?:.|\n)*)\/\* end-test-block \*\//gm, '')
     }
