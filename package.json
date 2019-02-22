@@ -5,5 +5,8 @@
   "version": "1.0.0",
   "dependencies": {
     "through2": "^3.0.0"
-  }
+  },
+  "keywords": ["browserify", "transform", "strip", "code", "remove"],
+  "author": "idettman@gmail.com",
+  "license": "MIT"
 }
