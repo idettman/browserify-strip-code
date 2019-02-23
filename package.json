@@ -2,9 +2,13 @@
   "name": "browserify-strip-code",
   "main": "index.js",
   "description": "Removes code between comment blocks: /* start-test-block */code.../* end-test-block */",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "readme": "README.md",
   "dependencies": {
     "through2": "^3.0.0"
+  },
+  "engines": {
+    "node": "9.0.0"
   },
   "keywords": ["browserify", "transform", "strip", "code", "remove"],
   "author": "idettman@gmail.com",
