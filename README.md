@@ -54,6 +54,7 @@ const stripCode = require('browserify-strip-code')
 
 const b = browserify()
 b.add('./index.js')
+
 /**
 * the strip code transform accepts an optional object with a whitelist property,
 * which is an array of filenames that will be the only files processed, ignoring all other files if defined
